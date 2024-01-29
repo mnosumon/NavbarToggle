@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #979797;
+    padding: 0 50px;
+    position: relative;
+    height: 70px;
+}
+a{
+    color: black;
+    padding: 8px 12px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    display: none;
+}
+
+.amrt{
+    height: 900px;
+    width: 100%;
+    background: red;
+}
+
+@media screen and (max-width: 700px){
+    .icon{
+        display: block;
+    }
+    ul{
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: blueviolet;
+        text-align: center;
+        overflow: hidden;
+        transition: all 0.7s ease;
+        
+    }
+}
