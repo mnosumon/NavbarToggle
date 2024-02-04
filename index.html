@@ -14,7 +14,6 @@
             <h1>Hello</h1>
         </div>
         
-        <div class="menu">
             <ul id="menu">
                 <li>
                     <a href="#">Home</a>
@@ -32,35 +31,34 @@
                     <a href="#">Home</a>
                 </li>
             </ul>
-        </div>
         <div class="icon" onclick="handleIcon()">
             <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
-    <div class="amrt">
+    <div id="sumon" class="amrt">
         <h2>Nuruddin Osman Sumon</h2>
     </div>
 
     <script>
         let menuToggle = document.querySelector('#menu')
         menuToggle.style.maxHeight = "0px"
-
+        let sumon = document.querySelector("#sumon")
+        sumon.style.paddingTop = "0px"
         let handleIcon = ()=>{
             
             if (menuToggle.style.maxHeight == "0px") {
-                menuToggle.style.maxHeight = "400px"
+                menuToggle.style.maxHeight = "452px"
             }else{
                 menuToggle.style.maxHeight = "0px"
             }
+            if (sumon.style.paddingTop == "0px") {
+                sumon.style.paddingTop = "465px"
+            }else{
+                sumon.style.paddingTop = "0px"
+            }
         }
+        
 
-        // function handleIcon(){
-        //     if (menuToggle.style.maxHeight == "0px") {
-        //         menuToggle.style.maxHeight = "400px"
-        //     }else{
-        //         menuToggle.style.maxHeight = "0px"
-        //     }
-        // }
     </script>
 </body>
 </html>

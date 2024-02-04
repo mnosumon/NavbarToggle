@@ -17,6 +17,7 @@ nav{
 a{
     color: black;
     padding: 8px 12px;
+    display: inline-block;
 }
 
 ul{
@@ -47,6 +48,12 @@ ul{
         text-align: center;
         overflow: hidden;
         transition: all 0.7s ease;
-        
     }
+    li{
+        padding: 20px;
+    }
+    .amrt{
+        transition: all 0.7s ease;
+    }
+    
 }
