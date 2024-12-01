@@ -1,64 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <nav>
-        <div class="logo">
-            <h1>Hello</h1>
-        </div>
-        
-            <ul id="menu">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-            </ul>
-        <div class="icon" onclick="handleIcon()">
-            <i class="fa-solid fa-bars"></i>
-        </div>
+      <div class="logo">
+        <h1>Hello</h1>
+      </div>
+
+      <ul id="menu">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+      </ul>
+      <div class="icon" onclick="handleIcon()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </nav>
-    <div id="sumon" class="amrt">
+    <!-- <div id="sumon" class="amrt">
         <h2>Nuruddin Osman Sumon</h2>
-    </div>
+    </div> -->
 
     <script>
-        let menuToggle = document.querySelector('#menu')
-        menuToggle.style.maxHeight = "0px"
-        let sumon = document.querySelector("#sumon")
-        sumon.style.paddingTop = "0px"
-        let handleIcon = ()=>{
-            
-            if (menuToggle.style.maxHeight == "0px") {
-                menuToggle.style.maxHeight = "452px"
-            }else{
-                menuToggle.style.maxHeight = "0px"
-            }
-            if (sumon.style.paddingTop == "0px") {
-                sumon.style.paddingTop = "465px"
-            }else{
-                sumon.style.paddingTop = "0px"
-            }
+      let menuToggle = document.querySelector("#menu");
+      menuToggle.style.maxHeight = "0px";
+      let sumon = document.querySelector("#sumon");
+      sumon.style.paddingTop = "0px";
+      let handleIcon = () => {
+        if (menuToggle.style.maxHeight == "0px") {
+          menuToggle.style.maxHeight = "452px";
+        } else {
+          menuToggle.style.maxHeight = "0px";
         }
-        
-
+        if (sumon.style.paddingTop == "0px") {
+          sumon.style.paddingTop = "465px";
+        } else {
+          sumon.style.paddingTop = "0px";
+        }
+      };
     </script>
-</body>
+  </body>
 </html>
